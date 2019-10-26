@@ -42,3 +42,29 @@ print(myslice[::2])
 
 #Reverse string
 print(myslice[::-1])
+
+#String immutability
+#Strings are immutable, meaning you can't re-assign the S in Sam with P
+name = 'Sam'
+#name[0] = 'P' does not work
+#Use string concatenation
+last_letters = name[1:]
+name = 'P' + last_letters
+print(name)
+#If you want to use multiple string concat
+letter = 'z'
+print(letter*10)
+
+#string Methods
+
+x = 'Hello World'
+print(x.upper())
+
+#SPlit method, splits a string based on white space or letter passed in. By default split by whitespace
+
+y ='This is a string'
+print(y.split())
+
+#split on i's
+print(y.split('i'))
+
