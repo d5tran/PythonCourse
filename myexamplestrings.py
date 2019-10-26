@@ -68,3 +68,20 @@ print(y.split())
 #split on i's
 print(y.split('i'))
 
+#Format strings, string interpolation
+#.format() method
+
+print('This is a string {}'.format('INSERTED'))
+print('The {} {} {}'.format('fox','brown','quick'))
+print('The {2} {1} {0}'.format('fox','brown','quick'))
+print('The {q} {b} {f}'.format(f='fox',b='brown',q='quick'))
+
+#Float Formatting
+#{value:width:prcesion f}
+result = 100/777
+print("The result was {r:1.3f}".format(r=result))
+
+#f strings, skips the .format method
+
+name = "Jose"
+print(f"Hello, my name is {name}")
