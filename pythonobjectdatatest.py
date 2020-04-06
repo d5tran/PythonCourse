@@ -63,6 +63,3 @@ print(d['k1'][2]['k2'][1]['tough'][2][0])
 list5 = [1,2,2,33,4,4,11,22,3,3,2]
 setList5 = set(list5)
 print(setList5)
-
-while(1):
-    print('infinite loop')

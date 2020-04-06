@@ -24,3 +24,6 @@ def myfunc4(*args,**kwargs):
     print (f"I would like {args[0]} {kwargs['food']} ")
 
 myfunc4(10,20,30,fruit='organge',food='eggs',animal='dog')
+
+
+#

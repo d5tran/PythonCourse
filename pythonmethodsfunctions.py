@@ -20,7 +20,7 @@ def dog_string(mystring):
         return False
 
 #Pig Latin: starts a vowel, add 'ay' to the end
-#if the word doest not start with a vowel, put the first letter at the end, then add 'ay'
+#if the word does not start with a vowel, put the first letter at the end, then add 'ay'
 
 def pig_latin(word):
     

@@ -15,6 +15,7 @@ for item in x:
     #comment, if i had nothing here, pythong will error out. It needs something in the for loop. pass can be use as a place holder
     pass
 
+#Continue goes to the top of the loop
 mystring = 'Sammy'
 
 for letter in mystring:
@@ -23,10 +24,11 @@ for letter in mystring:
     print(letter)
 
 
-
+#Break breaks out of hte loop
 mystring = 'Sammy'
 
 for letter in mystring:
     if letter == 'a':
         break
     print(letter)
+    
