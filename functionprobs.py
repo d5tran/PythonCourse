@@ -168,3 +168,41 @@ def summer_69(arr):
 print(summer_69([2,1,6,9,11]))
 
 
+#write a function that akes in a list of integers and returns True if it contains 007 in Order
+
+def spy_games(nums):
+
+    code = [0,0,7,'x']
+
+    for x in nums:
+        if x == code[0]:
+            code.pop(0)
+    return len(code) == 1
+        
+print(spy_games([1,2,3,0,3,0,7,8]))
+
+#Write a function that returns the number of prime numbers that exiist up to and including a given number
+
+def count_primes(num):
+
+    #check for 0 or 1 input
+    if num < 2:
+        return 0
+    # 2 or greater
+    primes = [2]
+    #Counter going up to inpute num
+    x = 3
+
+    while x <= num:
+        #Check if x is prime
+        for y in range (3,x,2):
+            if x%y ==0:
+                x += 2
+                break
+        else:
+            primes.append(x)
+            x +=2
+    print(primes)
+    return len(primes)
+
+print(count_primes(100))
