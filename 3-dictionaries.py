@@ -20,6 +20,7 @@ d = {'k1':123, 'k2': [0,1,2],'k3':{'insidekey':100}}
 
 print(d['k2'])
 print(d['k2'][1])
+print(d['k3']['insidekey'])
 
 #To add to a dictionary
 
@@ -27,6 +28,7 @@ d['k4'] = 100
 print(d['k4'])
 
 #Useful dictionary methods: 
+dkeys = prices_lookup.keys()
 print(prices_lookup.keys())
 print(prices_lookup.values())
 print(prices_lookup.items())
